@@ -7,7 +7,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	overflow: hidden;
-	background-repeat: no-repeat;
+	
 }
 
 .gif {
@@ -35,6 +35,7 @@ body {
  	left: 50%;
  	transform: translate(-50%,-50%);
  	text-align: center;
+	grid-template-columns: repeat(2, 1fr);
 }
 
 .img {
