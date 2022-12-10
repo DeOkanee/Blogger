@@ -71,7 +71,7 @@ a{
 }
 #pergeseran{
   margin-top:10px;
-  
+  margin-bottom: 12px;
   opacity:5%;
   visibility:hidden;
   transition:all 1s ease;
@@ -102,7 +102,7 @@ a{
   flex-wrap:nowrap;
   text-align:center;
   font-size:20px;
-  font-family: cursive;
+  font-family: 'Poppins', sans-serif;
   align-items:center;
   justify-content:center;
   border-radius:10px;
