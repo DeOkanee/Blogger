@@ -1,87 +1,71 @@
 <!doctype html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Swiper CSS -->
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-  <!-- CSS -->
-
   
-    <title>Profile De Oka</title>
-    <link rel="shortcut icon" href="assets/img/prof.png">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="assets/css/style.css" >
-    
-    <link href="style.css" rel="stylesheet" type="text/css">
-  <!-- icon sosial -->
+  <meta name="theme-color" content="#4f6b88" />
+  <meta name="msapplication-navbutton-color" content="#4f6b88">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#4f6b88">
+
+  <link rel="shortcut icon" href="assets/img/prof.png">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!--scropt-->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>  
+    <!-- icon sosial -->
   <link rel="stylesheet" type="text/css" href="style.css" >
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   
+  <title>Profile De Oka</title>
 </head>
 
-<body>
-  <div>
-    <main>
-      <section>
-        <div class="avatar">
-          <img src="assets/img/avatar oka.png" alt="">
-        </div>
-        </div class="profile">
-              <div class="oka">
-                <h3>D E&nbsp;O K A</h3>
-              </div>
-                
+<body class="bg-light">
+    <main class="m-auto pt-5 pb-1">
+      <section class="container profile text-center">
+          <img src="assets/img/avatar oka.png">
+                <h3>DE&nbsp;OKA</h3>
               <div class="blog">
-                <p> Hai 👋, selamat datang di profile De oka 😇
+                <p> Hai 👋, selamat datang di profile De oka😇
                   <br/>
                   ini adalah profile yang dibuat secara otodidak<br>saat otak saya ada keinginan untuk membuatnya hehe 😄
                   <br/>
                   <br /> o(〃＾▽＾〃)o
                 </p>
               </div>
-              <!--audio gif-->
-             
-              <div class="semua ">
-              <div class="text">
-              <p>| Fred Punya Musik |</p>
-              </div>
-              <input  class="Tekan" type="button"
-              onclick="bunyi();" value="🔊" />
-              </div>
-
-              <div class="gif">
-                <img src="https://i.postimg.cc/Tw2B9Fz1/a.gif">
-              </div>
-              <br>
-              <script>
-                
-                function bunyi() {
-                  var bunyi = new
-                  Audio('https://l.top4top.io/m_2533hogru1.mp3');bunyi.play();
-                }
-              </script>
-              <!--audio-->
-              
-              
-
-        
       </section>
-    </main>
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-
+      <section class="container text-center">
+        <!--audio gif-->
+        <div class="gif">
+          <p>| Fred Punya Musik |</p>
+          <input class="button" type="button"
+          onclick="bunyi();" value="🔊" />
+          <br>
+          <img src="https://i.postimg.cc/Tw2B9Fz1/a.gif">
+        </div>
+          <br>
+          
+      </section>
+      <script>
+        function bunyi() {
+          var bunyi = new 
+          Audio('https://l.top4top.io/m_2533hogru1.mp3');bunyi.play ();
+        }
+      </script>
 
   <script>
-  //Audio Link MP3
+  //Audio 
   function play() {
     var audio = new
-    Audio('https://c.top4top.io/m_2532yurxt1.mp3'); audio.play();
+    Audio('https://c.top4top.io/m_2532yurxt1.mp3');audio.play(),
+    Audio('https://l.top4top.io/m_2533hogru1.mp3');audio.play();
   } 
   
    
@@ -127,12 +111,10 @@
   </script>
   
    <!--Muncul awal-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" >
-  </script>
-  <br/>
   <!--slider-->
+  <section class="container text center">
   <div class="title">
-    <h2>Game De Oka</h2>
+    <h2>Game</h2>
   </div>
   <div class="geser" id='pergeseran'>
     <p><i>Geser &nbsp;</i>&#128073;</p>
@@ -148,6 +130,7 @@
       <a href="https://www.addictinggames.com/">GAS</a></p>
     <p>LAGI PROSES</p>
   </div>
+</section>
   <!-- sosial -->
   <section class="fh5co-social">
     <div class="site-container">
@@ -174,10 +157,10 @@
   <!-- sosial -->
   <footer>
     <div class="bawah">
-      <p align="center"> © Deokanee | | <a href="mailto:tessdulu8@gmail.com?subject=Berapa%20Persen%20Anda%20Suka%20Dengan%20Web%20Saya%20? &body=Dari 1-100%%20= '    '">Ratting</a></p>
+      <p align="center"> © Deokanee | | <a href="mailto:tessdulu8@gmail.com?subject=Berapa%20Persen%20Anda%20Suka%20Dengan%20Web%20Saya%20? &body=Dari 1-100%%20berapa? = ' '">Ratting</a></p>
     </div>
-  </footer>
-  
+  </footer>   
+    </main>
 </body>
  
 </html>
